@@ -1,0 +1,80 @@
+
+    ================================================================================
+    CLIMATE CHANGE IMPACT ON PV ELECTRICITY PRODUCTION - ANALYSIS REPORT
+    ================================================================================
+    
+    Projection Period: 2024-2074
+    
+    1. CLIMATE TRENDS SUMMARY
+    --------------------------------------------------------------------------------
+    
+   Temperature: Increasing at 0.010°C/year
+                Range: 21.6°C to 29.6°C
+   Irradiance: Changing at -0.014 kWh/m²/day/year
+   Extreme Events: Increasing at 0.046 events/year
+    
+    2. IMPACT ON PV PRODUCTION
+    --------------------------------------------------------------------------------
+    
+   2030-2039:
+      Production Change: 0.1%
+      Combined Factor: 0.533
+   2040-2049:
+      Production Change: -3.6%
+      Combined Factor: 0.525
+   2050-2059:
+      Production Change: -8.6%
+      Combined Factor: 0.494
+   2060-2069:
+      Production Change: -13.7%
+      Combined Factor: 0.481
+    
+    3. UNCERTAINTY ANALYSIS
+    --------------------------------------------------------------------------------
+    
+   2030:
+      Mean: 2.2 MWh
+      90% CI: [2.0, 2.5] MWh
+      Uncertainty Range: 0.9 MWh
+   2040:
+      Mean: 2.4 MWh
+      90% CI: [2.2, 2.7] MWh
+      Uncertainty Range: 1.1 MWh
+   2050:
+      Mean: 2.2 MWh
+      90% CI: [1.9, 2.4] MWh
+      Uncertainty Range: 0.9 MWh
+   2060:
+      Mean: 2.2 MWh
+      90% CI: [1.9, 2.4] MWh
+      Uncertainty Range: 1.0 MWh
+   2070:
+      Mean: 2.1 MWh
+      90% CI: [1.9, 2.4] MWh
+      Uncertainty Range: 1.0 MWh
+    
+    4. SENSITIVITY ANALYSIS
+    --------------------------------------------------------------------------------
+    
+   Temperature Sensitivity: -0.01 MWh/unit
+   Irradiance Sensitivity: 0.48 MWh/unit
+   Cloud_cover Sensitivity: -0.74 MWh/unit
+   Extreme_events Sensitivity: -0.00 MWh/unit
+    
+    5. DECISION-MAKING IMPLICATIONS
+    --------------------------------------------------------------------------------
+    
+    Key Findings:
+    • PV production shows a declining trend due to combined climate effects
+    • Temperature increases have the most significant negative impact
+    • Extreme event frequency increases add variability to production
+    • Uncertainty increases significantly in later decades
+    
+    Recommendations:
+    1. Consider installing temperature-resilient PV panels
+    2. Implement energy storage systems to handle increased variability
+    3. Develop adaptive management strategies for extreme events
+    4. Regular reassessment of projections as new climate data becomes available
+    
+    ================================================================================
+    
