@@ -46,4 +46,3 @@ Berikut adalah **daftar lengkap semua variabel** yang muncul di dokumen submissi
 - Variabel optimasi ($S_t$, $a_t$, $V_t$) adalah **jantung model SDP** Anda — siapkan slide khusus jika juri tanya detail.
 - Variabel produksi PV ($T_p$, $G$, $\eta_{T_p}$) adalah dasar fisik model.
 - Semua variabel sudah konsisten antara Bab II dan Bab III.
-- Semua simbol matematika menggunakan delimiter `$...$` untuk kompatibilitas dengan Markdown standar.
