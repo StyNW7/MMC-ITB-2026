@@ -1,13 +1,10 @@
-# ✅ LISTING LENGKAP SEMUA MATHEMATICAL FORMULA DALAM DOKUMEN SUBMISSION
+# 📃 LISTING LENGKAP SEMUA MATHEMATICAL FORMULA BAB 2
 
 ## RUMUS 1
 
 **Lokasi:** Bab II, subbab 2.1.1 (hal. 11)  
 
-**Rumus:**  
-$
-T_p(t) = T_{\text{avg}}(t) + \alpha \times G(t)
-$
+## $T_p(t) = T_{\text{avg}}(t) + \alpha \times G(t)$
 
 **Asumsi:** NOCT = 44°C, α = 0,03 °C·m²/W (panel standar)  
 
@@ -29,12 +26,9 @@ $
 
 **Lokasi:** Bab II, subbab 2.1.1 (hal. 11)  
 
-**Rumus:**  
-$$
-\eta_{T_p} = \eta_{\text{ref}} \times [1 - \beta (T_p - 25)] \quad \text{(2.2)}
-$$
+## $\eta_{T_p} = \eta_{\text{ref}} \times [1 - \beta (T_p - 25)] \quad \text{(2.2)}$
 
-**Asumsi:** $\eta_{\text{ref}} = 0{,}20$, $\beta = 0{,}004/^\circ$C (silikon kristalin)  
+**Asumsi:** $\eta_{\text{ref}} = 0{,}20$, $\beta = 0{,}004/^\circ C$ (silikon kristalin)  
 
 **Sumber:** Koefisien Temperature Coefficient of Power (TCP) dari literatur Yusoff et al. (2018)  
 
@@ -54,10 +48,7 @@ $$
 
 **Lokasi:** Bab II, subbab 2.1.2 (hal. 11)  
 
-**Rumus:**  
-$$
-G(t) = \frac{SS(t)}{12} \times 1000 \quad \text{(2.3)}
-$$
+## $G(t) = \frac{SS(t)}{12} \times 1000 \quad \text{(2.3)}$
 
 **Asumsi:** Model linearisasi foto-periode 12 jam (proxy irradiansi)  
 
@@ -73,17 +64,11 @@ $$
 
 ---
 
-## RUMUS 4 & 5
+## RUMUS 4
 
 **Lokasi:** Bab II, subbab 2.1.2 (hal. 11)  
 
-**Rumus:**  
-$$
-P(t) = G(t) \times A \times \eta_{T_p} \times PR \quad \text{(2.4)}
-$$  
-$$
-E(t) = \frac{P(t) \times SS(t)}{1000} \quad \text{(2.5)}
-$$
+## $P(t) = G(t) \times A \times \eta_{T_p} \times PR \quad \text{(2.4)}$
 
 **Asumsi:** $A = 50$ m² (1 kWp), $PR = 0{,}8$ (agregat losses)  
 
@@ -91,8 +76,31 @@ $$
 
 **Variabel:**  
 - $P(t)$: Daya (kW)  
-- $E(t)$: Energi harian (kWh)  
+- $G(t)$: Irradiansi (W/m²)  
+- $A$: Luas panel per kWp (m²)  
+- $\eta_{T_p}$: Efisiensi pada suhu panel  
 - $PR$: Performance Ratio  
+
+**Hasil analisis:** Daya keluaran sistem PV pada waktu t.  
+
+**Insight:** Mengintegrasikan radiasi, suhu, dan losses sistem.
+
+---
+
+## RUMUS 5
+
+**Lokasi:** Bab II, subbab 2.1.2 (hal. 11)  
+
+## $E(t) = \frac{P(t) \times SS(t)}{1000} \quad \text{(2.5)}$
+
+**Asumsi:** $SS(t)$ dalam jam/hari, konversi ke kWh  
+
+**Sumber:** Standar IEC & IESR (2023) untuk sistem PV tropis  
+
+**Variabel:**  
+- $E(t)$: Energi harian (kWh)  
+- $P(t)$: Daya (kW)  
+- $SS(t)$: Lama penyinaran matahari (jam/hari)  
 
 **Hasil analisis:** Produksi tahunan 1 kWp ≈ 11.811 kWh.  
 
@@ -104,10 +112,7 @@ $$
 
 **Lokasi:** Bab II, subbab 2.1.3 (hal. 12)  
 
-**Rumus:**  
-$$
-D(y) = (1 - \delta_d)^y \quad \text{atau} \quad e^{-\lambda y} \quad \text{(2.6)}
-$$
+## $D(y) = (1 - \delta_d)^y \quad \text{atau} \quad e^{-\lambda y} \quad \text{(2.6)}$
 
 **Asumsi:** $\delta_d = 0{,}005{-}0{,}008$/tahun  
 
@@ -115,6 +120,8 @@ $$
 
 **Variabel:**  
 - $D(y)$: Faktor degradasi tahun ke-$y$  
+- $\delta_d$: Laju degradasi tahunan  
+- $\lambda$: Parameter laju eksponensial  
 
 **Hasil analisis:** Degradasi 14–21% dalam 30 tahun.  
 
@@ -126,16 +133,15 @@ $$
 
 **Lokasi:** Bab II, subbab 2.1.3 (hal. 12)  
 
-**Rumus:**  
-$$
-T_{\text{avg}}(t,y) = T_{\text{avg hist}}(t) + \Delta T(y) \quad \text{(2.7)}
-$$
+## $T_{\text{avg}}(t,y) = T_{\text{avg hist}}(t) + \Delta T(y) \quad \text{(2.7)}$
 
-**Asumsi:** $\Delta T(y) = +1{,}0{-}1{,}5^\circ$C pada 2050 (SSP2-4.5)  
+**Asumsi:** $\Delta T(y) = +1{,}0{-}1{,}5^\circ C$ pada 2050 (SSP2-4.5)  
 
 **Sumber:** IPCC AR6 + tren BMKG  
 
 **Variabel:**  
+- $T_{\text{avg}}(t,y)$: Suhu udara rata-rata tahun ke-$y$  
+- $T_{\text{avg hist}}(t)$: Suhu udara historis  
 - $\Delta T(y)$: Kenaikan suhu proyeksi  
 
 **Hasil analisis:** Climate Penalty linear -0,04 kW/tahun.  
@@ -144,36 +150,65 @@ $$
 
 ---
 
-## RUMUS 8–10
+## RUMUS 8
 
-**Lokasi:** Bab II, 2.1.7–2.1.8 & Bab III, 3.3.2 (hal. 12–13, 17–18)  
+**Lokasi:** Bab II, 2.1.7 (hal. 12)  
 
-**Rumus utama:**  
+## $\min \sum_{t=1}^T \frac{1}{(1+r)^t} C_t \quad \text{(2.8)}$
 
-Objective:  
-$$
-\min \sum_{t=1}^T \frac{1}{(1+r)^t} C_t \quad \text{(2.8)}
-$$
+**Asumsi:** $r$ = discount rate, $C_t$ = biaya periode $t$  
 
-State transition:  
-$$
-S_{t+1} = f(S_t, a_t) \quad \text{(2.9)}
-$$
+**Sumber:** Puterman (2014) – Stochastic Dynamic Programming  
 
-Bellman equation:  
-$$
-V_t(S_t) = \min_{a_t} \left[ \mathbb{E}[C_t(S_t,a_t)] + \beta \mathbb{E}[V_{t+1}(S_{t+1})] \right] \quad \text{(2.10)}
-$$  
+**Variabel:**  
+- $r$: Discount rate  
+- $C_t$: Biaya pada periode $t$  
+- $T$: Horizon waktu  
+
+**Hasil analisis:** Fungsi objektif minimisasi biaya total terdiskonto.  
+
+**Insight:** Dasar optimisasi ekonomi jangka panjang.
+
+---
+
+## RUMUS 9
+
+**Lokasi:** Bab II, 2.1.8 (hal. 12)  
+
+## $S_{t+1} = f(S_t, a_t) \quad \text{(2.9)}$
+
+**Asumsi:** State transition bersifat Markovian  
+
+**Sumber:** Puterman (2014) – Markov Decision Process  
+
+**Variabel:**  
+- $S_t$: State pada periode $t$  
+- $a_t$: Keputusan (action) pada periode $t$  
+- $f$: Fungsi transisi state  
+
+**Hasil analisis:** State berevolusi berdasarkan keputusan dan realisasi kondisi surya.  
+
+**Insight:** Dinamika sistem dimodelkan secara stokastik.
+
+---
+
+## RUMUS 10
+
+**Lokasi:** Bab II, 2.1.8 & Bab III, 3.3.2 (hal. 13, 18)  
+
+## $V_t(S_t) = \min_{a_t} \left[ \mathbb{E}[C_t(S_t,a_t)] + \beta \mathbb{E}[V_{t+1}(S_{t+1})] \right] \quad \text{(2.10)}$
+
 dengan $\beta = \frac{1}{1+r}$
 
 **Asumsi:** Dua state surya (Low/Normal) dengan probabilitas $p_L = 0{,}1053$, $p_N = 0{,}8947$; CF_Low = 0,1342, CF_Normal = 0,3333  
 
-**Sumber:** Puterman (2014) – Markov Decision Process & Stochastic Dynamic Programming  
+**Sumber:** Puterman (2014) – Bellman equation untuk SDP  
 
 **Variabel:**  
-- $S_t$: state kapasitas  
-- $a_t$: keputusan investasi  
-- $C_t$: biaya periode $t$  
+- $V_t(S_t)$: Value function pada state $S_t$  
+- $C_t(S_t,a_t)$: Biaya immediate  
+- $\beta$: Discount factor  
+- $\mathbb{E}$: Ekspektasi atas ketidakpastian  
 
 **Hasil analisis:** Model two-layered SDP.  
 
@@ -185,17 +220,16 @@ dengan $\beta = \frac{1}{1+r}$
 
 **Lokasi:** Bab II, 2.1.9 (hal. 13)  
 
-**Rumus:**  
-$$
-g_t^{PV}(\omega) = CF_\omega \cdot K_t^{PV} \quad \text{(2.11)}
-$$
+## $g_t^{PV}(\omega) = CF_\omega \cdot K_t^{PV} \quad \text{(2.11)}$
 
 **Asumsi:** Dua kondisi surya (Low/Normal)  
 
 **Sumber:** Duffie & Beckman (2013)  
 
 **Variabel:**  
+- $g_t^{PV}(\omega)$: Pembangkitan PV pada kondisi $\omega$  
 - $CF_\omega$: Capacity Factor kondisi $\omega$  
+- $K_t^{PV}$: Kapasitas PV terpasang  
 
 **Hasil analisis:** Digunakan dalam energy balance SDP.  
 
@@ -207,17 +241,16 @@ $$
 
 **Lokasi:** Bab II, 2.1.10 (hal. 13)  
 
-**Rumus:**  
-$$
-EENS_t = \mathbb{E}_\omega [LS_t(\omega)] \quad \text{(2.12)}
-$$
+## $EENS_t = \mathbb{E}_\omega [LS_t(\omega)] \quad \text{(2.12)}$
 
 **Asumsi:** Load shedding $LS_t$ ketika supply < demand  
 
-**Sumber:** Billinton & Allan (1996)  
+**Sumber:** Billinton & Allan (1996) – Metrik keandalan  
 
 **Variabel:**  
 - $EENS_t$: Expected Energy Not Served  
+- $LS_t(\omega)$: Load shedding pada kondisi $\omega$  
+- $\mathbb{E}_\omega$: Ekspektasi atas kondisi surya  
 
 **Hasil analisis:** Metrik keandalan utama dalam SDP.  
 
@@ -229,19 +262,20 @@ $$
 
 **Lokasi:** Bab III, 3.2.2 (hal. 16)  
 
-**Rumus:**  
-$$
-P_{\text{out}}(t) = P_{\text{src}} \times \left( \frac{G_{\text{actual}}(t) \times A_{\text{haze}}(t)}{1000} \right) \times L_{\text{temp}}(t) \times (1 - L_{\text{soiling}}(t)) \times \eta_{\text{inv}}
-$$
+## $P_{\text{out}}(t) = P_{\text{src}} \times \left( \frac{G_{\text{actual}}(t) \times A_{\text{haze}}(t)}{1000} \right) \times L_{\text{temp}}(t) \times (1 - L_{\text{soiling}}(t)) \times \eta_{\text{inv}}$
 
 **Asumsi:** Termasuk haze (Beer-Lambert), cloud cover, soiling  
 
 **Sumber:** Kombinasi model fisik + optik atmosfer  
 
 **Variabel:**  
-- $A_{\text{haze}}$: attenuasi haze  
-- $L_{\text{temp}}$: loss temperatur  
-- dll.  
+- $P_{\text{out}}(t)$: Daya keluaran akhir  
+- $P_{\text{src}}$: Daya sumber referensi  
+- $G_{\text{actual}}(t)$: Irradiansi aktual  
+- $A_{\text{haze}}(t)$: Attenuasi haze  
+- $L_{\text{temp}}(t)$: Loss temperatur  
+- $L_{\text{soiling}}(t)$: Loss akibat kotoran panel  
+- $\eta_{\text{inv}}$: Efisiensi inverter  
 
 **Hasil analisis:** Volatilitas 10–25 kW.  
 
