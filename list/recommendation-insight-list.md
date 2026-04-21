@@ -1,4 +1,4 @@
-# ✅ LISTING LENGKAP SEMUA REKOMENDASI & SARAN BAGI OTORITAS
+# 📃 LISTING LENGKAP SEMUA REKOMENDASI & SARAN BAGI OTORITAS
 
 Berikut adalah **daftar lengkap dan terstruktur** semua rekomendasi serta saran yang kami tulis di dokumen tahap penyisihan. Kami kelompokkan berdasarkan bagian dokumen agar mudah dipahami:
 
