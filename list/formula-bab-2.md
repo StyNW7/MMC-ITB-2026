@@ -1,5 +1,9 @@
 # 📃 LISTING LENGKAP SEMUA MATHEMATICAL FORMULA BAB 2
 
+Berikut adalah **daftar lengkap dan terstruktur** semua rumus matematika yang kami tuliskan pada Bab 2 yang menjadi dasar pembentukan solusi matematika di Bab 3:
+
+---
+
 ## RUMUS 1
 
 **Lokasi:** Bab II, subbab 2.1.1 (hal. 11)  

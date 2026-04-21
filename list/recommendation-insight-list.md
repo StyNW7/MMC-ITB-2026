@@ -1,7 +1,6 @@
 # ✅ LISTING LENGKAP SEMUA REKOMENDASI & SARAN BAGI OTORITAS
-**(Diekstrak dari Dokumen Submission Anda – MMC MCF ITB 2026)**
 
-Berikut adalah **daftar lengkap dan terstruktur** semua rekomendasi serta saran yang Anda tulis di dokumen. Saya kelompokkan berdasarkan bagian dokumen agar mudah digunakan untuk slide presentasi atau infografis.
+Berikut adalah **daftar lengkap dan terstruktur** semua rekomendasi serta saran yang kami tulis di dokumen tahap penyisihan. Kami kelompokkan berdasarkan bagian dokumen agar mudah dipahami:
 
 ---
 
@@ -82,4 +81,4 @@ $3.$ Perhatikan keterbatasan model (data hanya 1 tahun, asumsi dua-state cuaca) 
 
 - Rekomendasi inti yang paling sering disebut: **Oversizing 15–20% + UPV + BESS masif + Portofolio Campuran**.
 - Semua rekomendasi didukung oleh hasil simulasi (Climate Penalty, EENS mendekati nol, Gini Energy lebih rendah).
-- Anda bisa gunakan daftar ini langsung sebagai **slide khusus "Rekomendasi untuk Otoritas"** (bisa dibagi menjadi 2–3 slide).
+- Gunakan daftar ini langsung sebagai **slide khusus "Rekomendasi untuk Otoritas"** (bisa dibagi menjadi 2–3 slide).

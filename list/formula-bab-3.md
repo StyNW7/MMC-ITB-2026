@@ -1,5 +1,9 @@
 # 📃 LISTING LENGKAP SEMUA MATHEMATICAL SOLUTION BAB 3
 
+Berikut adalah **daftar lengkap dan terstruktur** semua solusi matematika yang kami buat pada bab 3:
+
+---
+
 ### **MODEL / RUMUS 1 (Full Production Model P_out(t))**
 
 **Lokasi:** Bab III, subbagian 3.2.2 (Perubahan Iklim dan Kejadian Ekstrem), hal. 16
