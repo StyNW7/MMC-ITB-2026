@@ -5,9 +5,9 @@
 **Lokasi:** Bab II, subbab 2.1.1 (hal. 11)  
 
 **Rumus:**  
-$$
+$
 T_p(t) = T_{\text{avg}}(t) + \alpha \times G(t)
-$$
+$
 
 **Asumsi:** NOCT = 44°C, α = 0,03 °C·m²/W (panel standar)  
 
