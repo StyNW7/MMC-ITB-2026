@@ -243,7 +243,7 @@ COLORS = ['#2563eb','#7c3aed','#059669','#dc2626','#f59e0b','#0891b2','#be185d',
 
 with st.sidebar:
     st.markdown("## ☀️ PV Dashboard")
-    st.markdown(f"<small style='color:#94a3b8'>{DATA_SOURCE}</small>", unsafe_allow_html=True)
+    # st.markdown(f"<small style='color:#94a3b8'>{DATA_SOURCE}</small>", unsafe_allow_html=True)
     st.markdown("---")
     page = st.radio(
         "Navigation",
